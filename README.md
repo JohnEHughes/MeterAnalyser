@@ -1,5 +1,5 @@
 # MeterAnalyser
-Program that allows users ti add/delete meter reads to a database and summarises the data.
+Program that allows users to add/delete meter reads to a database and summarises the data.
 
 In my day job I have to monitor energy consumption and thought I would write a program to further my coding skills. I wanted to use a database to get practice using one, so I opted for SQLite with a Tkinter front end. I created a dashboard to display basic information such as averages, min/max values and listing the calculated consumption values rather than just the raw reads. I made it slightly harder by breaking the records into years and giving the user the ability to select the data across three meters per year.
 I used Matlibplot to practice using graphs to show the consumption trends, again the user has the ability to choose different meters to show.
